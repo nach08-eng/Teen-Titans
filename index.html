@@ -26,9 +26,7 @@
       max-width: 1200px;
       height: 85vh;
     }
-    .container h1 { 
-      background:  #00caff;
-      display: flex;
+
     /* Chatbot in center */
     .chat-section {
       flex: 1;
@@ -123,7 +121,11 @@
       margin-bottom: 12px;
       color: #333;
     }
-  
+     .news-section h2 {
+      font-size: 22px;
+      margin-bottom: 16px;
+      color:  #00caff;
+    }
     .news-item {
       background: #f1f3f6;
       margin-bottom: 10px;
@@ -157,7 +159,7 @@
 </head>
 <body>
   <div class="container">
-    <h1> Healora - Healthcare Awareness With Multilingual AI Chatbot</h1><!-- Chat Section (center) -->
+    <!-- Chat Section (center) -->
     <div class="chat-section">
       <div class="chat-window" id="chat-window"></div>
       <div class="input-area">
@@ -173,6 +175,7 @@
 
     <!-- Side News -->
     <div class="news-section">
+      <h1> Healora - Healthcare Awareness With Multilingual AI Chatbot</h1>
       <h2>Live News</h2>
       <div id="news-feed"></div>
     </div>
@@ -231,6 +234,7 @@
   </script>
 </body>
 </html>
+
 
 
 
